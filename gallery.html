@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallerypage</title>
+     <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<main>
+<section class="archive">
+  <div class="pictures" onclick="openModal('/asset/uma florzinha pra ti.jpeg','Ibukota Indonesia tercinta')">
+    <img src="./asset/uma florzinha pra ti.jpeg" alt="foto1" />
+  </div>
+  <div class="pictures" onclick="openModal('./asset/foto1.jpg','bisa dibilang first date, aku senengg kali waktu itu')">
+    <img src="./asset/foto1.jpg" alt="foto1" />
+  </div>
+
+</section>
+
+<div id="imageModal" class="modal" aria-hidden="true" role="dialog" aria-label="Image preview">
+  <div class="modal-inner" role="document">
+    <button class="modal-close" aria-label="Tutup">×</button>
+
+    <figure class="modal-figure">
+      <img id="modalImage" class="modal-image" src="" alt="">
+      <figcaption id="modalCaption" class="modal-caption">
+       
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
