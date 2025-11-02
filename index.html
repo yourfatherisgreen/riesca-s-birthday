@@ -6,7 +6,16 @@
     <title>web sikawan</title>
     <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Galindo&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
-
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+</style>
   </head>
   <body>
     <main>
@@ -45,6 +54,22 @@
 
     </main>
 
+<div id="music-popup" class="music-popup">
+  <div class="music-content">
+    <h2>Play background music?</h2>
+    <div class="music-buttons">
+      <button id="music-yes">Yes 🎶</button>
+      <button id="music-no">No 🚫</button>
+    </div>
+  </div>
+</div>
+
+
+<button id="musicToggle" class="music-toggle">▶️</button>
+
+<script src="./music-player.js"></script>
     <script src="script.js"></script>
+
   </body>
+  
 </html>
