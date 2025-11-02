@@ -60,6 +60,8 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
+  background-image: url("./asset/option1.jpeg");
+  background-size: cover;
 }
 
 .gone,
@@ -194,7 +196,7 @@
 
 .flame {
   position: absolute;
-  top: 135%;
+  top: 130%;
   left: 50%;
   transform: translateX(-50%);
   width: 40px;
@@ -335,9 +337,11 @@
   align-items: center;
   gap: 20px;
   background: linear-gradient(to left, white, pink);
-  height: auto;
-  padding: 20px 0;
+  min-height: 100vh;
+  padding: 20px 0 0 0;
   position: relative;
+  background-image: url("./asset/option3.jpeg");
+  background-size: cover;
 }
 .archive img {
   width: 200px;
