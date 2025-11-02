@@ -194,8 +194,8 @@
 
 .flame {
   position: absolute;
-  top: 130%;
-  left: 51%;
+  top: 135%;
+  left: 50%;
   transform: translateX(-50%);
   width: 40px;
   height: 60px;
@@ -410,7 +410,7 @@
   );
   border: 1px solid rgba(255, 255, 255, 0.08);
   color: #fff;
-  font-family: "Gorditas", cursive;
+  font-family: "Courgette", cursive;
   font-size: 1rem;
   text-align: left;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
@@ -526,7 +526,6 @@
   color: white;
 }
 
-/* floating toggle button */
 .music-toggle {
   position: fixed;
   bottom: 20px;
