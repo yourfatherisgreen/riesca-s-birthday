@@ -225,6 +225,23 @@
   25% {
     transform: translateX(-50%) scaleY(1.1) scaleX(0.95);
     opacity: 1;
+    width: 45vw;
+    max-width: 500px;
+    border: 2px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333;
+    font-family: "Gorditas", cursive;
+    font-size: 1.3em;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background: white;
+    aspect-ratio: 3/ 3;
+    color: rgb(245, 224, 167);
+    font-family: "Gorditas", cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(66, 68, 201);
     filter: brightness(1.2);
   }
   50% {
@@ -549,4 +566,27 @@
 
 .music-toggle:hover {
   transform: scale(1.1);
+}
+
+.letter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+.letter-fill img {
+  height: 100vh;
+}
+
+.letter-fill h1 {
+  text-align: left;
+}
+
+.letter-fill {
+  background-image: url("./asset/bgletter.jpeg");
+  background-size: auto;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 2em;
+  font-style: normal;
 }
